@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "megagiant-absolute-extractor"
+version = "0.1.0"
+description = ""
+authors = ["bjuggler <yyeliseyenka@gmail.com>"]
+license = "LICENSE"
+readme = "README.md"
+packages = [
+    {include = "backend"},
+    {include = "lib"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
